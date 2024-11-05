@@ -1,0 +1,51 @@
+body {
+    background: rgb(157, 181, 179);
+    font-family: Arial, san-serif;
+    text-align : center;
+    margin : 20px;
+ }
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+ li {
+    margin : 10px 0;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+ }
+ ul {
+    list-style-type: none;
+    padding: 0;
+ }
+ .contenedor{
+    background-color: rgba(0, 163, 244, 0.241);
+    box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.345);
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    width: 30%;
+    height: 400px;
+    margin: 7% auto;
+ }
+ .contenido{
+   padding: 30px;
+ }
+ .input-tarea{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+ }
+ .boton-agregar{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease;
+ }
+ .boton-agregar:hover{
+    background-color: #398b3c;
+ }
