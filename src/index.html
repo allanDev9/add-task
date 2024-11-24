@@ -10,9 +10,10 @@
   <body>
     <div class="contenedor">
       <section class="contenido">
-        <h1>Lista de tareas</h1>
+        <h1 id="titulo">Lista de tareas</h1>
         <input
         type="text"
+        maxlength="25"
         class="input-tarea"
         id="nuevaTarea"
         placeholder="Ingrese una nueva tarea"
@@ -22,6 +23,7 @@
         </button>
         
         <ul id="listaTareas"></ul>
+        <p id="mensaje"></p>
       </section>
     </div>
   </body>
